@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class CubeHitPoint : MonoBehaviour {
     public float killedCubeRotation = 0;
-	// Use this for initialization
-	void Start () {
+    public Vector3 expectedDirection;
+    
+    // Use this for initialization
+    void Start () {
 		
 	}
 	

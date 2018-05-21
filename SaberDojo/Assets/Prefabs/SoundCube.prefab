@@ -428,6 +428,7 @@ MonoBehaviour:
   - {fileID: 114601601391146228}
   - {fileID: 114754440610791388}
   debugHitMaterial: {fileID: 2100000, guid: 5414f0fb829d3664bbd47fab5e5a1655, type: 2}
+  speed: 10
 --- !u!114 &114585421054239566
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -440,6 +441,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   killedCubeRotation: 90
+  expectedDirection: {x: 1, y: 0, z: 0}
 --- !u!114 &114601601391146228
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -452,6 +454,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   killedCubeRotation: 270
+  expectedDirection: {x: -1, y: 0, z: 0}
 --- !u!114 &114716962242169108
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -464,6 +467,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   killedCubeRotation: 0
+  expectedDirection: {x: 0, y: -1, z: 0}
 --- !u!114 &114754440610791388
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -476,3 +480,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   killedCubeRotation: 180
+  expectedDirection: {x: 0, y: -1, z: 0}

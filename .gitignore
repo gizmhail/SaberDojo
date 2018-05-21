@@ -86,3 +86,6 @@ sysinfo.txt
 *.apk
 *.unitypackage
 
+/SaberDojo/Assets/Music
+/SaberDojo/Assets/Music.meta
+*.gitignore~
